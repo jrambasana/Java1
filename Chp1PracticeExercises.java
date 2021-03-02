@@ -1,5 +1,6 @@
 class Person{
-    int age = 1;
+    int age;
+
     public void increaseAge(int i)
     {
         age = age + i;
@@ -8,11 +9,26 @@ class Person{
     {
         age = age - i;
     }
+
+    Person(){
+        age = 1;
+    }
+    Person(int a)
+    {
+        age = a;
+    }
+
 }
-
-
 public class Chp1PracticeExercises{
     public static void main(String[] args) {
+        Person sam = new Person();
+        Person mina = new Person(18);
+        // System.out.println("Sam's age: "+ sam.age);
+        // sam.increaseAge(10);
+        // System.out.println("Sam's age: "+ sam.age);
+        // sam.age++;
+        // System.out.println("Sam's age: "+ sam.age);
+
         // String verbPhrase = "is money";
         // System.out.println("Time" + verbPhrase);
 
@@ -38,11 +54,5 @@ public class Chp1PracticeExercises{
         // System.out.println("2 + 2 = " + (2 + 2));
         // System.out.println("2 + 2 = " + 2 + 2);
 
-        Person sam = new Person();
-        System.out.println("Sam's age: "+ sam.age);
-        sam.increaseAge(10);
-        System.out.println("Sam's age: "+ sam.age);
-        sam.age++;
-        System.out.println("Sam's age: "+ sam.age);
     }
 }
