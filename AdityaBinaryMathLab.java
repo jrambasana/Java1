@@ -7,9 +7,9 @@
  *   Due date: 3/3/2021
  *   File: AdityaBinaryMathLab.java
  *   Purpose: My Java application that implements a binary math tutor
- *   Compiler/IDE: Java SE Development Kit 14.0.2/IntelliJ IDEA 2020.3.1
+ *   Compiler/IDE: Java SE Development Kit (OpenJDK) 11.0.2/VS Code 1.52.1
  *   Operating system: MS Windows 10 Home
- *   Reference(s): Java 14 API - Oracle Documentation
+ *   Reference(s): Java 11 API - Oracle Documentation
  */
 
 import java.util.ArrayList;
