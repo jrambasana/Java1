@@ -1,3 +1,4 @@
+package Chapter5;
 
 import java.util.Scanner;
 
@@ -44,8 +45,7 @@ public class Temperature
      degreesF Fahrenheit degrees.
     */
     public static double toCelsius(double degreesF)
-    {
-       
+    {  
          return 5*(degreesF - 32)/9;
     }
 
@@ -61,31 +61,6 @@ public class Temperature
 
         Temperature temperatureObject = new Temperature(degreesC);
         System.out.println("Equivalent Celsius temperature is "
-                             + temperatureObject.toString( ));
+                             + temperatureObject);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
