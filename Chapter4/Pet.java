@@ -13,7 +13,6 @@ public class Pet
         return ("Name: " + name + " Age: " + age + " years"
                        + "\nWeight: " + weight + " pounds");
     }
-
     public Pet(String initialName, int initialAge, 
                                           double initialWeight)
     {
@@ -29,7 +28,6 @@ public class Pet
             weight = initialWeight;
         }
     }
-
     public void set(String newName, int newAge, double newWeight)
     {
         name = newName;
@@ -44,19 +42,16 @@ public class Pet
             weight = newWeight;
         }
     }
-
     public Pet(String initialName)
     {
         name = initialName;
         age = 0;
         weight = 0;
     } 
-
     public void setName(String newName)
     {
         name = newName; 
     }
-
     public Pet(int initialAge)
     {
         name = "No name yet.";
@@ -69,7 +64,6 @@ public class Pet
         else
             age = initialAge;
     }
-
     public void setAge(int newAge)
     {
         if (newAge < 0)
@@ -80,7 +74,6 @@ public class Pet
         else
             age = newAge;
     }
-
     public Pet(double initialWeight)
     {
         name = "No name yet";
@@ -93,7 +86,6 @@ public class Pet
         else
             weight = initialWeight;
     }
-
     public void setWeight(double newWeight)
     {
         if (newWeight < 0)
@@ -104,24 +96,20 @@ public class Pet
         else
             weight = newWeight;
     }
-
     public Pet( )
     {
         name = "No name yet.";
         age = 0;
         weight = 0; 
     }
-
     public String getName( )
     {
         return name;
     }
-
     public int getAge( )
     {
         return age;
     }
-
     public double getWeight( )
     {
         return weight;
