@@ -108,12 +108,15 @@ public class FavoritesBarWithDriver {
         if (favoriteBar == null)
             favoriteBar = new ArrayList<Website>(); 
         favoriteBar.add(favoriteCount++,w);
+        System.out.println("Your choice "+w.getwebsiteName()
+        +" in the category "+w.getTopic()
+        +" has been added to the favorites bar.");
     }
 
     public void displayFavoriteBar()
     {
         int i = 0;
-        for(Iterator it = favoriteBar.iterator(); it.hasNext(); i++)
+        System.out.println("Displaying current favorites bar ...");        for(Iterator it = favoriteBar.iterator(); it.hasNext(); i++)
         {
             Website w = (Website)it.next();
             System.out.println("Selection #"+(i+1));
